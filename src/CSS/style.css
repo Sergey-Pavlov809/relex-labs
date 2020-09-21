@@ -1,0 +1,30 @@
+#gallery {
+    position: relative;
+    width: 100%;
+    background-color: #CECECE;
+    /* height: 100vh; */
+}
+
+#preview-images {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.preview-image {
+    width: 200px;
+    height: 200px;
+}
+
+.main-image {
+    width: 600px;
+    height: 600px;
+}
+
+.image-border {
+    border: 10px solid black;
+}
+
+.ins{
+  background-color: red;
+}
