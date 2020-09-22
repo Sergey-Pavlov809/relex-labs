@@ -31,7 +31,7 @@ module.exports = {
             ]
         }]
     },
-    plagins: [new HtmlWebpackPlugin({
+    plugins: [new HtmlWebpackPlugin({
         filename: 'index.html',
         template: './src/index.html'
     })]
